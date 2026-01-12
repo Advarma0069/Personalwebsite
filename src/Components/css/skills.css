@@ -1,0 +1,109 @@
+.skills-section {
+  background-color: #0b1d51; /* Dark navy blue */
+  color: #ffffff;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills-wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.skills-image img {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  animation: imageFade 1s ease forwards;
+}
+
+/* Animate image fade-in */
+@keyframes imageFade {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.skills-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.skills-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #ffd700; /* gold highlight */
+}
+
+/* Skill items fade-in + slide */
+.skill {
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: skillFade 1s forwards;
+}
+
+@keyframes skillFade {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.skill-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.skill-percent {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.progress-bar {
+  background-color: #1a2a6c;
+  border-radius: 5px;
+  height: 12px;
+  overflow: hidden;
+}
+
+/* Animate progress fill */
+.progress-fill {
+  background-color: #00bfff;
+  height: 100%;
+  border-radius: 5px;
+  width: 0%;
+  animation: fillProgress 1.5s forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fillProgress {
+  from { width: 0%; }
+  to { width: var(--level); }
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .skills-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-image img {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+
+  .skills-container {
+    width: 100%;
+  }
+}
