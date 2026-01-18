@@ -1,12 +1,12 @@
 
 .about-section-dark {
-  background-color: #0d1117; /* dark background */
-  color: #e4e6eb; /* light text */
+  background-color: #0d1117; 
+  color: #e4e6eb; 
   padding: 60px 20px;
   font-family: 'Poppins', sans-serif;
 }
 
-/* ===== ABOUT CARD  */
+/*  ABOUT CARD  */
 .about-card {
   max-width: 1100px;
   margin: 0 auto 60px auto;
@@ -68,6 +68,10 @@
   margin-bottom: 15px;
   line-height: 1.6;
 }
+.about-text strong{
+  color: #2196f3;
+  font-style: italic;
+}
 
 /*  INFO GRID  */
 .about-info-grid {
@@ -108,7 +112,7 @@
   font-weight: 700;
 }
 
-/* ===== EDUCATION SECTION ===== */
+/*  EDUCATION SECTION  */
 .education-section {
   max-width: 1100px;
   margin: 0 auto;
@@ -171,6 +175,12 @@
 @media (max-width: 768px) {
   .card-grid {
     flex-direction: column;
+
+  }
+  .card-image{
+    margin: auto;
+    border-radius: 1rem;
+    padding: auto;
   }
 }
 

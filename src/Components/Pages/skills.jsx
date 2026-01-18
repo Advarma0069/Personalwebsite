@@ -4,15 +4,16 @@ import "../css/skills.css";
 export default function Skills() {
   const skillsData = [
     { name: "C# / .NET Core", level: 90 },
-    { name: "ASP.NET Core MVC & Web API", level: 85 },
+    { name: "ASP.NET Core MVC & REST API", level: 85 },
     { name: "Entity Framework Core", level: 80 },
     { name: "LINQ", level: 85 },
-    { name: "SQL Server", level: 85 },
+    { name: "SQL / MySQL", level: 85 },
     { name: "JavaScript", level: 75 },
     { name: "React.js", level: 70 },
     { name: "HTML & CSS", level: 90 },
     { name: "Git & GitHub", level: 80 },
   ];
+
 
   return (
     <section className="skills-section">

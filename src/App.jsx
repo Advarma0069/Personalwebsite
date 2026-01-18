@@ -7,7 +7,7 @@ import Home from './Components/Pages/Home'
 import About from './Components/Pages/About'
 import Skills from './Components/Pages/skills'
 import Projects from './Components/Pages/Project'
-import Achievements from './Components/Pages/achievements'
+import Achievements from './Components/Pages/Achievements'
 import Contact from './Components/Pages/Contact'
 import HireMe from './Components/Pages/HireMe'
 
