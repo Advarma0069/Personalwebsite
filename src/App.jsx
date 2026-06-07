@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './index.css'
 import Headers from './Components/Header'
 import Footer from './Components/Footer'
+import Experience from './Components/Pages/Experience'
 import Home from './Components/Pages/Home'
 import About from './Components/Pages/About'
 import Skills from './Components/Pages/Skills'
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Skills" element={<Skills />} />
+          <Route path="/Experience" element={<Experience />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Achievements" element={<Achievements />} />
           <Route path="/Contact" element={<Contact />} />
