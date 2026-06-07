@@ -60,8 +60,8 @@ const About = () => {
               </p>
 
               <p className="about-text">
-                I completed an online <strong >Java Developer Internship</strong> at <b>CognoRise InfoTech</b>,
-
+                Previously, I served as a <strong>Software Developer</strong> at <strong>Eagle Pvt. Ltd.</strong> (
+                 Aug 2025 – Feb 2026), contributing to the development of scalable enterprise applications and backend solutions.
               </p>
 
               <p className="about-text">
@@ -72,7 +72,7 @@ const About = () => {
               <div className="about-info-grid">
                 <div>
                   <span>Experience</span>
-                  <p>6 Months +</p>
+                  <p>1+ Year</p>
                 </div>
                 <div>
                   <span>Projects</span>
@@ -80,7 +80,7 @@ const About = () => {
                 </div>
                 <div>
                   <span>Location</span>
-                  <p>India</p>
+                  <p>Navi Mumbai, India</p>
                 </div>
                 <div>
                   <span>Availability</span>
