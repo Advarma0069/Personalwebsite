@@ -2,6 +2,7 @@ import React from "react";
 import "../css/Home.css";
 import About from "./About";
 import Skills from "./Skills";
+import Skills from "./Experience";
 import Project from "./Project";
 import Achievements from "./Achievements";
 import Contact from "./Contact";
