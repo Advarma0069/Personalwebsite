@@ -1,5 +1,8 @@
 import React from "react";
 import "../css/Achievements.css";
+import mernImg from "../../assets/education/mern.png";
+import generativeAIImg from "../../assets/education/generativeAI.png";
+import javaImg from "../../assets/java.png";
 
 const Achievements = () => {
   const achievementsData = [
@@ -8,7 +11,7 @@ const Achievements = () => {
       platform: "Sharda University",
       date: "2025",
       link: "#",
-      image: "src/assets/education/mern.png",
+      image: mernImg,
       description:
         "Demonstrated proficiency in full-stack web development using MongoDB, Express.js, React.js, and Node.js, completing hands-on projects and real-world applications.",
     },
@@ -17,7 +20,7 @@ const Achievements = () => {
       platform: "LinkedIn Learning",
       date: "2025",
       link: "#",
-      image: "src/assets/education/generativeAI.png",
+      image: generativeAIImg,
       description:
         "Completed an advanced course on Generative AI techniques, learning to build AI models, generate content, and implement machine learning pipelines for real-world tasks.",
     },
@@ -26,7 +29,7 @@ const Achievements = () => {
       platform: "CognoRise Infotech",
       date: "2024",
       link: "#",
-      image: "src/assets/java.png",
+      image: javaImg,
       description:
         "Gained practical experience in Java application development, including core Java, Spring Boot, REST APIs, and database integration, contributing to enterprise-level projects.",
     },
@@ -35,7 +38,7 @@ const Achievements = () => {
       platform: "CognoRise Infotech",
       date: "2024",
       link: "#",
-      image: "src/assets/java.png",
+      image: javaImg,
       description:
         "Participated in software development projects focusing on Java backend development, microservices architecture, and collaborative Agile workflows, enhancing coding and problem-solving skills.",
     },

@@ -2,13 +2,15 @@ import React from "react";
 import "../css/Home.css";
 import About from "./About";
 import Skills from "./Skills";
-import Skills from "./Experience";
+import Experience from "./Experience";
 import Project from "./Project";
 import Achievements from "./Achievements";
 import Contact from "./Contact";
 import Icons from "./Icons";
 
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa"; // Social Icons
+import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
+import bgVideo from "../../assets/bg.mp4";
+import homeImg from "../../assets/home.jpg";
 
 
 const Home = () => {
@@ -23,7 +25,7 @@ const Home = () => {
           muted
           playsInline
         >
-          <source src="/src/assets/bg.mp4" type="video/mp4" />
+          <source src={bgVideo} type="video/mp4" />
         </video>
 
         {/* DARK OVERLAY */}
@@ -58,19 +60,20 @@ const Home = () => {
 
             {/* BUTTONS */}
             <div className="home-buttons">
-              <a href="/HireMe" className="btn hire-btn animate-btn">Hire Me</a>
-              <a href="/Projects" className="btn project-btn animate-btn">View Projects</a>
+              <a href="/hireme" className="btn hire-btn animate-btn">Hire Me</a>
+              <a href="/projects" className="btn project-btn animate-btn">View Projects</a>
             </div>
           </div>
 
           {/* RIGHT SIDE IMAGE */}
           <div className="home-image animate-right">
-            <img src="/src/assets/home.jpg" alt="Aditya Varma" />
+            <img src={homeImg} alt="Aditya Varma" />
           </div>
         </div>
       </section>
       <About />
       <Skills />
+      <Experience />
       <Project />
       <Achievements />
       <Contact />

@@ -1,5 +1,9 @@
 import React from "react";
 import "../css/About.css";
+import adImg from "../../assets/ad.jpg";
+import mcaImg from "../../assets/education/MCA.jpg";
+import bseImg from "../../assets/education/bse.png";
+import eduImg from "../../assets/education/image.png";
 
 const About = () => {
   const educationData = [
@@ -7,25 +11,25 @@ const About = () => {
       degree: "Master of Computer Application (M.C.A)",
       institute: "Sharda University",
       year: "2023-2025",
-      image: "src/assets/education/MCA.jpg",
+      image: mcaImg,
     },
     {
       degree: "B.S.c Mathematics",
       institute: "Td pg college Jaunpur (Purvanchal University)",
       year: "2021-2023",
-      image: "src/assets/education/bse.png",
+      image: bseImg,
     },
     {
       degree: "Senior Secondary School",
       institute: "Adarsh Inter College Palhana Azamgarh (UP Board)",
       year: "2018-2020",
-      image: "src/assets/education/image.png",
+      image: eduImg,
     },
     {
       degree: "Secondary School",
       institute: "Adarsh Inter College Palhana Azamgarh (UP Board)",
       year: "2017-2018",
-      image: "src/assets/education/image.png",
+      image: eduImg,
     },
   ];
 
@@ -37,7 +41,7 @@ const About = () => {
         <div className="about-card">
           <div className="card-grid">
             <div className="card-image">
-              <img src="/ad.jpg" alt="Aditya Varma - Full Stack .NET Developer" />
+              <img src={adImg} alt="Aditya Varma - Full Stack .NET Developer" />
             </div>
 
             <div className="card-content">

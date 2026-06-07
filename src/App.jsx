@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './index.css'
+import './Index.css'
 import Headers from './Components/Header'
 import Footer from './Components/Footer'
 import Experience from './Components/Pages/Experience'
@@ -22,15 +22,15 @@ const App = () => {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Skills" element={<Skills />} />
-          <Route path="/Experience" element={<Experience />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Achievements" element={<Achievements />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/HireMe" element={<HireMe />} />
-          <Route path="/MapPage" element={<MapPage />} />
-          <Route path="/Icons" element={<Icons />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/achievements" element={<Achievements />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/hireme" element={<HireMe />} />
+          <Route path="/mappage" element={<MapPage />} />
+          <Route path="/icons" element={<Icons />} />
           
 
         </Routes>
