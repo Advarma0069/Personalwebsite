@@ -35,9 +35,12 @@ const Home = () => {
             <h2 className="home-title">
               Hi, I'm <span>Aditya Varma</span>
             </h2>
-            <p className="home-description">
-              <span>Network Engineer</span> at Beumer Group India Pvt. Ltd., working on enterprise and industrial networking technologies including <span>Routing, Switching, VPNs, Switch Stacking, TCP/IP, VLANs, and Network Troubleshooting</span> to maintain secure, reliable, and scalable network infrastructure.
-            </p>
+       <p className="home-description">
+          <span>Network Engineer</span> at Beumer Group India Pvt. Ltd., specializing in enterprise and industrial network infrastructure. 
+         Experienced in <span>Routing & Switching, VPN Technologies, TCP/IP, VLANs, Switch Stacking, Network Security, and Troubleshooting</span>,
+         ensuring high availability, secure connectivity, and optimal performance across mission-critical network environments.
+      </p>
+
 
             {/* SOCIAL MEDIA ICONS */}
             <div className="social-icons animate-social">
