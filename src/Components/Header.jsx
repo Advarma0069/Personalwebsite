@@ -28,6 +28,7 @@ const Header = () => {
             <li><NavLink to="/" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Home</NavLink></li>
             <li><NavLink to="/about" className="nav-link" onClick={() => setMobileMenuOpen(false)}>About Me</NavLink></li>
             <li><NavLink to="/skills" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Skills</NavLink></li>
+            <li><NavLink to="/experience" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Experience</NavLink></li> {/* Added Experience link */}
             <li><NavLink to="/projects" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Projects</NavLink></li>
             <li><NavLink to="/achievements" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Achievements</NavLink></li>
             <li><NavLink to="/contact" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Contact</NavLink></li>
