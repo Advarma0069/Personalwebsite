@@ -22,7 +22,7 @@ const Home = () => {
           muted
           playsInline
         >
-          <source src="/src/assets/bg.mp4" type="video/mp4" />
+          <source src="/assets/bg.mp4" type="video/mp4" />
         </video>
 
         {/* DARK OVERLAY */}
@@ -64,7 +64,7 @@ const Home = () => {
 
           {/* RIGHT SIDE IMAGE */}
           <div className="home-image animate-right">
-            <img src="/src/assets/home.jpg" alt="Aditya Varma" />
+            <img src="/assets/home.jpg" alt="Aditya Varma" />
           </div>
         </div>
       </section>

@@ -6,7 +6,7 @@ import "../css/Projects.css";
 const projects = [
   {
     title: "Ayurveda E-Commerce & Order Management",
-    image: "src/assets/Ayurveda.png",
+    image: "/assets/Ayurveda.png",
     points: [
       "Built backend APIs for products, categories, cart, orders, and customers",
       "Implemented JWT authentication and role-based access (Admin / Customer)",
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: "ERP & CRM Management System",
-    image: "/src/assets/lead.png",
+    image: "/assets/lead.png",
     points: [
       "Developed APIs for customers, leads, orders, reports, and user management",
       "Implemented secure authentication and optimized database operations",
@@ -27,7 +27,7 @@ const projects = [
   },
   {
     title: "Social Media API System",
-    image: "/src/assets/social.png",
+    image: "/assets/social.png",
     points: [
       "Created REST APIs for posts, likes, comments, follow/unfollow, and chat",
       "Designed normalized database schema and optimized query performance",
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     title: "Logistics & Order Tracking System",
-    image: "/src/assets/logistics.png",
+    image: "/assets/logistics.png",
     points: [
       "Developed APIs for order creation, shipment tracking, and delivery status",
       "Implemented validation, error handling, and secure endpoints",
@@ -47,7 +47,7 @@ const projects = [
   },
   {
     title: "Logistics & Order Tracking System",
-    image: "/src/assets/react.svg",
+    image: "/assets/react.svg",
     points: [
       "Developed APIs for order creation, shipment tracking, and delivery status",
       "Implemented validation, error handling, and secure endpoints",
@@ -57,7 +57,7 @@ const projects = [
   },
   {
     title: "Logistics & Order Tracking System",
-    image: "/src/assets/lead.png",
+    image: "/assets/lead.png",
     points: [
       "Developed APIs for order creation, shipment tracking, and delivery status",
       "Implemented validation, error handling, and secure endpoints",
@@ -67,7 +67,7 @@ const projects = [
   },
   {
     title: "Logistics & Order Tracking System",
-    image: "/src/assets/social.png",
+    image: "/assets/social.png",
     points: [
       "Developed APIs for order creation, shipment tracking, and delivery status",
       "Implemented validation, error handling, and secure endpoints",
