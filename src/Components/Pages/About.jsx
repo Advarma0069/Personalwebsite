@@ -7,25 +7,25 @@ const About = () => {
       degree: "Master of Computer Application (M.C.A)",
       institute: "Sharda University",
       year: "2023-2025",
-      image: "src/assets/education/MCA.jpg",
+      image: "/assets/education/MCA.jpg",
     },
     {
       degree: "B.S.c Mathematics",
       institute: "Td pg college Jaunpur (Purvanchal University)",
       year: "2021-2023",
-      image: "src/assets/education/bse.png",
+      image: "/assets/education/bse.png",
     },
     {
       degree: "Senior Secondary School",
       institute: "Adarsh Inter College Palhana Azamgarh (UP Board)",
       year: "2018-2020",
-      image: "src/assets/education/image.png",
+      image: "/assets/education/image.png",
     },
     {
       degree: "Secondary School",
       institute: "Adarsh Inter College Palhana Azamgarh (UP Board)",
       year: "2017-2018",
-      image: "src/assets/education/image.png",
+      image: "/assets/education/image.png",
     },
   ];
 
